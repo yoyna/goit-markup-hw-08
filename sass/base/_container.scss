@@ -1,0 +1,35 @@
+// .container {
+//     width: 1200px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+//480px+
+@media screen and (min-width: 480px) {
+    .container{
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+}
+
+//768px+ tablet
+@media screen and (min-width: 768px) {
+    .container{
+        width: 768px;
+    }
+}
+
+//1200px+ desktop
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 1200px;
+    }
+}
