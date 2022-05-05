@@ -33,3 +33,13 @@
     bottom: 0%;
     left: 0%;
 }
+
+@media screen and (max-width:1199px){
+    .direction-container{
+        display: none;
+    }
+
+    .direction{
+        display: none;
+    }
+}
