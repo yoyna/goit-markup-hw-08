@@ -46,6 +46,7 @@
     visibility: hidden;
     pointer-events: none;
     background-color: var(--primary-white-color);
+    z-index: 10000;
 }
 
 .mobile-menu.is-open{
@@ -217,7 +218,7 @@
             width: 100%;
             position: absolute;
             left: 0;
-            bottom: -4px;
+            bottom: -5px;
         }
     }
 
@@ -250,9 +251,9 @@
         margin-right: 10px;
     }
 
-        .contacts-email{
-            margin-bottom: 10px;
-        }
+    .contacts-email{
+        margin-bottom: 10px;
+    }
 }
 
 //1200px+ desktop
@@ -288,6 +289,7 @@
 
     .contacts-email{
         margin-right: 30px;
+        margin-bottom: 0px;
     }
 }
     
